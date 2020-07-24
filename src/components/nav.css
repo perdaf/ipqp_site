@@ -1,0 +1,46 @@
+:root {
+  --max-height: 5vh;
+  --link-color: #fff;
+  --text-color: #fff;
+  --orange-color: rgb(255, 142, 14);
+}
+
+.navigation {
+  min-height: var(--max-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgb(161, 161, 161);
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: var(--max-height);
+}
+.link {
+  display: inline-block;
+  padding: 0 1rem;
+  text-decoration: none;
+  height: 100%;
+  line-height: calc(var(--max-height));
+  color: white;
+}
+.link:hover {
+  background-color: var(--orange-color);
+}
+.link.current {
+  background-color: var(--orange-color);
+}
+.logo > img {
+  max-height: var(--max-height);
+}
+.contact {
+  color: var(--orange-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

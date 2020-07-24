@@ -1,0 +1,39 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+
+import "./nav.css";
+
+import logo from "../img/Logo Institut .png";
+
+function Nav() {
+  return (
+    <nav className="navigation">
+      <div className="logo">
+        <img src={logo} alt="logo de l'institut" />
+      </div>
+      <ul className="navLinks">
+        <NavLink exact activeClassName="current" to="/" className="link">
+          <li>Accueil</li>
+        </NavLink>
+        <NavLink
+          exact
+          activeClassName="current"
+          to="formations"
+          className="link"
+        >
+          <li>Formations</li>
+        </NavLink>
+        <NavLink exact activeClassName="current" to="contact" className="link">
+          <li>Contact</li>
+        </NavLink>
+      </ul>
+      <div className="contact">
+        <p>Adresse:</p>
+        <p>Tel:</p>
+        <p>Mail:</p>
+      </div>
+    </nav>
+  );
+}
+
+export default Nav;
