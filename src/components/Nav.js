@@ -15,20 +15,52 @@ function Nav() {
         <NavLink exact activeClassName="current" to="/" className="link">
           <li>Accueil</li>
         </NavLink>
+
+        <NavLink
+          exact
+          activeClassName="current"
+          to="actualites"
+          className="link"
+        >
+          <li>Notre Actualites</li>
+        </NavLink>
+
         <NavLink
           exact
           activeClassName="current"
           to="formations"
           className="link"
         >
-          <li>Formations</li>
+          <li>Nos Formations</li>
         </NavLink>
+
+        <NavLink
+          exact
+          activeClassName="current"
+          to="solutions"
+          className="link"
+        >
+          <li>Nos Solutions</li>
+        </NavLink>
+
+        <NavLink
+          exact
+          activeClassName="current"
+          to="engagements"
+          className="link"
+        >
+          <li>Nos Engagements</li>
+        </NavLink>
+
         <NavLink exact activeClassName="current" to="contact" className="link">
           <li>Contact</li>
         </NavLink>
       </ul>
       <div className="contact">
-        <p>Adresse:</p>
+        <p>
+          <strong>Point Athanase</strong>
+        </p>
+        <p style={{ fontSize: 12 }}> Le Vauclin, Martinique</p>
         <p>Tel:</p>
         <p>Mail:</p>
       </div>

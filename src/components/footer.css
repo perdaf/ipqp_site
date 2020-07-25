@@ -1,0 +1,48 @@
+.mainFooter {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 100%;
+}
+
+.col1 {
+  flex: 1 100%;
+  padding: 0.7rem 0.6rem;
+}
+.col2 {
+  flex: 1 1 300px;
+  padding: 0.7rem 0.6rem;
+}
+.partenaires {
+  background-color: hsl(36, 100%, 85%);
+}
+.certif {
+  height: 120px;
+  background-color: hsl(36, 100%, 75%);
+}
+.follow {
+  height: 120px;
+  /* background: linear-gradient(
+      hsla(36, 100%, 60%, 0.9),
+      hsla(36, 100%, 60%, 0.8)
+    ),
+    url("../img/graduation.jpg"); */
+  /* background-size: cover; */
+  background-color: hsl(36, 100%, 60%);
+}
+.map {
+  background-color: hsl(36, 100%, 50%);
+}
+
+.partLogo,
+.certifLogo,
+.followLogo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h3 {
+  margin-bottom: 1.5rem;
+}

@@ -1,12 +1,12 @@
 :root {
-  --max-height: 5vh;
+  --height: 5vh;
   --link-color: #fff;
   --text-color: #fff;
   --orange-color: rgb(255, 142, 14);
 }
 
 .navigation {
-  min-height: var(--max-height);
+  min-height: var(--height);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -15,27 +15,27 @@
 }
 .navLinks {
   display: flex;
-  align-items: center;
-  justify-content: center;
   list-style-type: none;
-  height: var(--max-height);
+  height: var(--height);
 }
 .link {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   text-decoration: none;
-  height: 100%;
-  line-height: calc(var(--max-height));
+  line-height: calc(var(--height));
   color: white;
+  font-size: 0.8rem;
 }
 .link:hover {
   background-color: var(--orange-color);
+  color: blue;
+  font-weight: bold;
 }
 .link.current {
   background-color: var(--orange-color);
 }
 .logo > img {
-  max-height: var(--max-height);
+  max-height: var(--height);
 }
 .contact {
   color: var(--orange-color);
