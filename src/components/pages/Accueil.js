@@ -2,21 +2,14 @@ import React from "react";
 import Cards from "../Cards";
 import "./accueil.css";
 
+import formations from "../../data/formations.json";
+
 function Accueil() {
-  const formations = [
-    {
-      title: "DEVENIR UN TUTEUR EFFICACE",
-      text:
-        "Analyser les modes d’acquisition des connaissances. Construire une action de tutorat dans l’entreprise",
-      txt_btn: "Voir la formation",
-    },
-    {
-      title: "ENTREPRENDRE : DE L'  IDÉE AU PROJET",
-      text:
-        "  Analyser la cohérence homme/projet. Comprendre et analyser le contexte de la création de son activité. Transformer son idée en projet réaliste et réalisable",
-      txt_btn: "Voir la formation",
-    },
-  ];
+  if (formations) {
+    formations.map((info) => {
+      console.log(info);
+    });
+  }
 
   return (
     <div className="pageAccueil">
@@ -38,9 +31,10 @@ function Accueil() {
           {formations &&
             formations.map((info) => (
               <Cards
-                title={info.title}
-                text={info.text}
-                txt_btn={info.txt_btn}
+                key={info.TITRE}
+                title={info.TITRE}
+                text={info.OBJECTIFS_VISES[0]}
+                txt_btn="Voir la Formation"
                 className="card"
               />
             ))}

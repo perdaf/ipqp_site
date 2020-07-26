@@ -1,0 +1,78 @@
+[
+  {
+    "PUBLICS_CIBLES :": "Débutants, intermédiaires",
+    "OBJECTIFS_VISES": [
+      "Comprendre les concepts de bases de l'informatique",
+      "Être à l'aise dans la navigation dans l'environnement Windows",
+      "Être capable de rédiger des documents avec Word (rédaction, mise en forme, mise en page, etc.)",
+      "Maîtriser les commandes de base du logiciel Word et les utiliser lors de la création de documents",
+      "Maîtriser les fonctions de base d’Excel (création graphique, mise en forme, mise en page, calculs, etc.)",
+      "Être capable de créer et mettre en forme des tableaux chiffrés comportant des calculs simples",
+      "Comprendre le fonctionnement de l’univers d’internet",
+      "Être autonome dans la navigation sur internet et arriver à identifier du contenu pertinent",
+      "Comprendre le fonctionnement des mails",
+      "Maitriser l’utilisation d’une boite email (envoyer, recevoir, rédiger, etc.)"
+    ],
+    "TITRE": "INITIATION A LA BUREAUTIQUE",
+    "PROGRAMME": [
+      {
+        "DESCRIPTION": "Comprendre les principes de base d’un ordinateur",
+        "CONTENT": [
+          "Comprendre le fonctionnement d'un ordinateur",
+          "Les principaux composants : processeur, mémoire vive, disque dur, périphériques…",
+          "Identifier le rôle du système d'exploitation"
+        ]
+      },
+      {
+        "DESCRIPTION": "Travailler dans l'environnement Windows",
+        "CONTENT": [
+          "Se repérer dans l'environnement.",
+          "Le bureau, la barre des tâches, les fenêtres",
+          "Gérer les tâches : ouvrir, fermer un programme",
+          "Passer d&#39;une application à une autre",
+          "Organiser son poste de travail",
+          "Créer et organiser ses dossiers",
+          "Copier, déplacer, renommer, supprimer des fichiers"
+        ]
+      },
+      {
+        "DESCRIPTION": "S'initier à l&#39;utilisation de Word",
+        "CONTENT": [
+          "Créer et modifier un document",
+          "Présenter et mettre en forme un document",
+          "Mettre en page et imprimer",
+          "Intégrer un tableau Excel dans un document Word :",
+          "Principe du copier/coller"
+        ]
+      },
+      {
+        "DESCRIPTION": "S'initier à l'utilisation d'Excel",
+        "CONTENT": [
+          "Conception d’un tableau",
+          "Mise en forme des données",
+          "Élaboration de calculs simples",
+          "Création de graphiques"
+        ]
+      },
+      {
+        "DESCRIPTION": "S’initier à l’utilisation d’une boite mail",
+        "CONTENT": [
+          "Créer et gérer une boite mail",
+          "Principe de la messagerie électronique",
+          "Créer et envoyer un message",
+          "Consulter sa boîte de réception, répondre, faire suivre",
+          "Joindre un fichier à un message"
+        ]
+      }
+    ],
+    "MOYENS_PEDAGOGIQUES": "Ordinateurs, tableau, feutres, rétro-projecteur",
+    "FORMATEURS_REFERENTS": "Marcelle MONTROP-HIPPOLITE",
+    "PRE_REQUIS": [
+      "Connaître le principe de fonctionnement d’un ordinateur (Démarrer, mettre en veille et éteindre un ordinateur - Utiliser la souris, maîtriser le clic gauche, le double clic gauche et le clic droit…)"
+    ],
+    "DATE": "",
+    "LIEU": "",
+    "NOMBRE_DE_PARTICIPANTS": "Deux personnes (maximum) par ordinateur (nbre de participants selon nbre ordi)",
+    "DURÉE": "30 heures"
+  }
+]

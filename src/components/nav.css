@@ -19,7 +19,7 @@
 .navLinks {
   display: flex;
   list-style-type: none;
-  height: var(--height);
+  /* height: var(--height); */
 }
 .link {
   display: inline-block;
@@ -51,7 +51,7 @@
 
 /******************** media query *********************/
 
-@media (max-width: 886px) {
+@media (max-width: 1037px) {
   .navLinks {
     order: 3;
     align-items: flex-end;
