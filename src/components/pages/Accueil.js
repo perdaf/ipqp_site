@@ -1,5 +1,7 @@
 import React from "react";
 import Cards from "../Cards";
+import { Link } from "react-router-dom";
+
 import "./accueil.css";
 
 import formations from "../../data/formations.json";
@@ -22,7 +24,9 @@ function Accueil() {
             voluptas! Labore dolorem ab quas placeat ullam quam similique iure
             illum.
           </p>
-          <button className="big_btn">Nous Contacter</button>
+          <Link to="/contact">
+            <button className="big_btn">Nous Contacter</button>
+          </Link>
         </div>
       </div>
       <div className="formationUne">
@@ -39,7 +43,9 @@ function Accueil() {
               />
             ))}
         </div>
-        <button className="big_btn mt2"> Voir toutes nos formations</button>
+        <Link to="/formations">
+          <button className="big_btn mt2"> Voir toutes nos formations</button>
+        </Link>
       </div>
       <div className="actualiteUne">
         <h1>Actualitées à la une !</h1>
@@ -57,7 +63,9 @@ function Accueil() {
             className="card"
           />
         </div>
-        <button className="big_btn mt2"> Voir toutes nos actualitées</button>
+        <Link to="/actualites">
+          <button className="big_btn mt2"> Voir toutes nos actualitées</button>
+        </Link>
       </div>
     </div>
   );
