@@ -58,9 +58,9 @@ function Nav() {
       </ul>
       <div className="contact">
         <p>
-          <strong>Point Athanase</strong>
+          <strong>Quartier Pointe Athanase</strong>
         </p>
-        <p style={{ fontSize: 12 }}> Le Vauclin, Martinique</p>
+        <p style={{ fontSize: 12 }}> 97280 LE VAUCLIN, Martinique</p>
         <p>Tel:</p>
         <p>Mail:</p>
       </div>

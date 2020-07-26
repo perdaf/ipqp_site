@@ -1,0 +1,70 @@
+.cards {
+  height: 450px;
+  width: 350px;
+  border: 2px solid #eee;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin: 0.2rem;
+}
+
+.card_title {
+  width: 100%;
+  min-height: 75px;
+  background: linear-gradient(
+      hsla(216, 100%, 29%, 1),
+      hsla(216, 100%, 50%, 0.5)
+    ),
+    url("../img/graduation.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 1.2rem 0;
+}
+.card_title h3 {
+  padding: 0 1.2rem;
+  margin: 0;
+  color: #eee;
+  font-size: 1.2rem;
+}
+.card_body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(hsla(36, 100%, 50%, 0.8), #eee),
+    url("../img/graduation.jpg") no-repeat center;
+  background-size: cover;
+}
+.card_body p {
+  font-size: 1.2rem;
+  color: #222;
+  text-align: center;
+}
+.card_pied {
+  min-height: calc(15% + 15px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(161, 161, 161);
+}
+.card_btn {
+  background: transparent;
+  border: 2px solid hsla(36, 100%, 50%, 1);
+  border-radius: 5px;
+  padding: 0.8rem 1.2rem;
+  color: #eee;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.card_btn:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 5px -3px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  transition: transform ease-in 100ms;
+  color: hsl(216, 100%, 29%);
+}

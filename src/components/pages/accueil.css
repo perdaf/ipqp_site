@@ -1,0 +1,71 @@
+.pageAccueil {
+  width: 100%;
+}
+.hero_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: calc(30vh + 100px);
+  background: linear-gradient(hsl(216, 100%, 29%), hsla(36, 100%, 50%, 0.452)),
+    url("../../img/4.jpg") no-repeat center top;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+.hero_txt {
+  max-width: 50%;
+  color: #eee;
+}
+.hero_txt h1 {
+  font-size: 2.5rem;
+  margin: 1.2rem 0;
+}
+.hero_txt p {
+  font-size: 1.3rem;
+  margin: 1.2rem 0;
+}
+.big_btn {
+  background: transparent;
+  border: 2px solid hsl(36, 100%, 50%);
+  border-radius: 5px;
+  padding: 0.8rem 1.2rem;
+  color: #eee;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.big_btn:hover {
+  cursor: pointer;
+  box-shadow: 0 15px 10px -3px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  transition: transform ease-in 100ms;
+  color: hsl(216, 100%, 29%);
+}
+
+.formationUne,
+.actualiteUne {
+  text-align: center;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  background: hsl(140, 80%, 29%);
+}
+.formationUne h1,
+.actualiteUne h1 {
+  text-align: center;
+  padding: 1.2rem 0;
+  color: #eee;
+  margin-bottom: 1rem;
+}
+.actualiteUne {
+  background: #b39b77;
+}
+
+.listCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.mt2 {
+  margin: 1.2rem 0;
+}
