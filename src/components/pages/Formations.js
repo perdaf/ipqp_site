@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Cards from "../Cards";
 import formations from "../../data/formations.json";
 
 import "./formations.css";
 
 function Formations() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="formations">
       <h1>Nos Formations</h1>
@@ -16,7 +20,7 @@ function Formations() {
               title={info.TITRE}
               text={info.OBJECTIFS_VISES[0]}
               txt_btn="Voir la Formation"
-              link={info.TITRE}
+              link={`/formation/${info.TITRE}`}
               className="card"
             />
           ))}

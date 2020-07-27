@@ -37,7 +37,7 @@ function Accueil() {
                 title={info.TITRE}
                 text={info.OBJECTIFS_VISES[0]}
                 txt_btn="Voir la Formation"
-                link={info.TITRE}
+                link={`/formation/${info.TITRE}`}
                 className="card"
               />
             ))}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./formationDetails.css";
 import formations from "../../data/formations.json";
@@ -8,6 +8,10 @@ function FormationDetails() {
 
   let formation = formations.filter((a) => a.TITRE === id);
   console.log(formation[0]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="formationDetails">
