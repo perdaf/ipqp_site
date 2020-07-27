@@ -52,9 +52,35 @@ function FormationDetails() {
       </div>
 
       <div className="content">
-        <h1>OBJECTIFS</h1>
-        <h1>PROGRAMME</h1>
-        <h1>METHODES PEDAGOGIQUES</h1>
+        <div className="contentgroupe">
+          <h1>OBJECTIFS</h1>
+          <ul>
+            {formation[0].OBJECTIFS_VISES.map((obj, key) => (
+              <li key={key}>{obj}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="contentgroupe">
+          <h1>PROGRAMME</h1>
+          <ol>
+            {formation[0].PROGRAMME.map((prog, key) => (
+              <li key={key} className="partprog">
+                <strong>{prog.DESCRIPTION}</strong>
+                <ul>
+                  {prog.CONTENT.map((ctx, key) => (
+                    <li key={key}>{ctx}</li>
+                  ))}
+                </ul>
+              </li>
+            ))}
+          </ol>
+        </div>
+        <div className="contentgroupe">
+          <h1>METHODES PEDAGOGIQUES</h1>
+          <ul>
+            <li>{formation[0].MOYENS_PEDAGOGIQUES}</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

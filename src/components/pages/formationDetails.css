@@ -1,21 +1,26 @@
 .formationDetails {
-  padding: 0.5rem;
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
+  margin: 1rem auto;
 }
 .title {
   color: blue;
   text-align: center;
   width: 100%;
   padding: 1rem;
+  border: 2px solid hsl(32, 100%, 53%);
+  border-radius: 10px 10px 0 0;
 }
 
 .content {
   flex: 5 1 auto;
   padding: 0.5rem;
 }
-
-.content h1 {
+.contentgroupe li {
+  margin-left: 1.5rem;
+}
+.contentgroupe h1 {
   font-size: 1.2rem;
   text-align: right;
   border-bottom: 1px solid hsl(32, 100%, 53%);
@@ -29,7 +34,7 @@
 .sidegroupe {
   margin-bottom: 1.2rem;
 }
-.sidebar h3 {
+.sidegroupe h3 {
   font-size: 0.9rem;
   margin: 0;
   padding: 0.2rem;
@@ -38,4 +43,7 @@
 .sidebar p {
   padding: 0 0.5rem;
   margin: 0;
+}
+.partprog {
+  margin-bottom: 0.5rem;
 }

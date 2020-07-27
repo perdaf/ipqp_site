@@ -30,7 +30,7 @@ function Accueil() {
       <div className="formationUne">
         <h1>Formations à la une !</h1>
         <div className="listCards">
-          {formations.length != 0 &&
+          {formations.length !== 0 &&
             formations.map((info) => (
               <Cards
                 key={info.TITRE}
