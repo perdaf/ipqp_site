@@ -8,9 +8,7 @@ import formations from "../../data/formations.json";
 
 function Accueil() {
   if (formations) {
-    formations.map((info) => {
-      console.log(info);
-    });
+    formations.map((info) => console.log(info));
   }
 
   return (
@@ -32,16 +30,18 @@ function Accueil() {
       <div className="formationUne">
         <h1>Formations à la une !</h1>
         <div className="listCards">
-          {formations &&
+          {formations.length != 0 &&
             formations.map((info) => (
               <Cards
                 key={info.TITRE}
                 title={info.TITRE}
                 text={info.OBJECTIFS_VISES[0]}
                 txt_btn="Voir la Formation"
+                link={info.TITRE}
                 className="card"
               />
             ))}
+          {formations.length <= 0 && <h2>Pas de Formations</h2>}
         </div>
         <Link to="/formations">
           <button className="big_btn mt2"> Voir toutes nos formations</button>

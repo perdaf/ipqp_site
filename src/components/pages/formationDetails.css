@@ -1,0 +1,41 @@
+.formationDetails {
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  color: blue;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.content {
+  flex: 5 1 auto;
+  padding: 0.5rem;
+}
+
+.content h1 {
+  font-size: 1.2rem;
+  text-align: right;
+  border-bottom: 1px solid hsl(32, 100%, 53%);
+  margin-bottom: 0.5rem;
+}
+.sidebar {
+  flex: 1 1 200px;
+  background: hsl(140, 80%, 29%);
+  padding: 0.5rem;
+}
+.sidegroupe {
+  margin-bottom: 1.2rem;
+}
+.sidebar h3 {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0.2rem;
+  color: white;
+}
+.sidebar p {
+  padding: 0 0.5rem;
+  margin: 0;
+}

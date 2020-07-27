@@ -16,6 +16,7 @@ function Formations() {
               title={info.TITRE}
               text={info.OBJECTIFS_VISES[0]}
               txt_btn="Voir la Formation"
+              link={info.TITRE}
               className="card"
             />
           ))}

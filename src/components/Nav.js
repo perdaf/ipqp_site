@@ -19,7 +19,7 @@ function Nav() {
         <NavLink
           exact
           activeClassName="current"
-          to="actualites"
+          to="/actualites"
           className="link"
         >
           <li>Notre Actualites</li>
@@ -28,7 +28,7 @@ function Nav() {
         <NavLink
           exact
           activeClassName="current"
-          to="formations"
+          to="/formations"
           className="link"
         >
           <li>Nos Formations</li>
@@ -37,7 +37,7 @@ function Nav() {
         <NavLink
           exact
           activeClassName="current"
-          to="solutions"
+          to="/solutions"
           className="link"
         >
           <li>Nos Solutions</li>
@@ -46,13 +46,13 @@ function Nav() {
         <NavLink
           exact
           activeClassName="current"
-          to="engagements"
+          to="/engagements"
           className="link"
         >
           <li>Nos Engagements</li>
         </NavLink>
 
-        <NavLink exact activeClassName="current" to="contact" className="link">
+        <NavLink exact activeClassName="current" to="/contact" className="link">
           <li>Contact</li>
         </NavLink>
       </ul>

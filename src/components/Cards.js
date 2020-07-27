@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./cards.css";
 
 function Cards(props) {
@@ -12,7 +13,9 @@ function Cards(props) {
       </div>
       <div className="spacer"></div>
       <div className="card_pied">
-        <button className="card_btn">{props.txt_btn}</button>
+        <Link to={`/formation/${props.link}`}>
+          <button className="card_btn">{props.txt_btn}</button>
+        </Link>
       </div>
     </div>
   );

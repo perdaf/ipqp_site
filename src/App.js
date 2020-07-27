@@ -11,6 +11,7 @@ import Contact from "./components/pages/Contact";
 import Actualites from "./components/pages/Actualites";
 import Solutions from "./components/pages/Solutions";
 import Engagements from "./components/pages/Engagements";
+import FormationDetails from "./components/pages/FormationDetails";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" exact component={Accueil} />
           <Route path="/actualites" component={Actualites} />
           <Route path="/formations" component={Formations} />
+          <Route path="/formation/:id" exact component={FormationDetails} />
           <Route path="/solutions" component={Solutions} />
           <Route path="/engagements" component={Engagements} />
           <Route path="/contact" component={Contact} />
